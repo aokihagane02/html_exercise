@@ -1,0 +1,19 @@
+.boxes {
+  width: 600px;
+  background-color: yellow;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  height: 150px;
+  width: 400px;
+  background-color: orange;
+}
+
+.box2 {
+  height: 250px;
+  width: 400px;
+  background-color: red;
+}
