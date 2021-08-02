@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px 0;
+}
+
+ul {
+  border: 1px 0;
+  padding: 15px 0;
+}
+
+li {
+  float: left;
+}
