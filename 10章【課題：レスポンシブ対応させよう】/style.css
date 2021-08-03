@@ -7,6 +7,7 @@
 header {
   background-color: #ff9a4b;
   height: 50px;
+  width: 100%;
 }
 
 main {
@@ -36,7 +37,7 @@ main {
   left: 0;
 }
 
-.bgimg {
+.bg_img {
   background-size: cover;
   background-position: bottom;
   height: 150px;
@@ -62,4 +63,25 @@ h3 {
 footer {
   background-color: #aaaaaa;
   height: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: block;
+    width: 100%;
+  }
+
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .c-1, .c-2 {
+    margin-bottom: 20px;
+  }
+
+  .bg_img {
+    width: 100%;
+  }
 }
